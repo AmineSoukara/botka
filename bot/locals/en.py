@@ -3,18 +3,18 @@ from bot.locals import Local
 
 LOCAL = Local({
     'WRONG_ROOM' : 'I a\'m not suppose to be here.\nID : <code>{CHAT_ID}</code>',
-    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Botkaca</b>!\nPowered by pyrogram.\nFork: <a href='https://github.com/azamaulanaaa/botkaca'>github.com/azamaulanaaa/botkaca</a>",
+    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Bot</b>!\nPowered by @DamienSoukara",
     'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "Checking...",
-    'ARIA2_DOWNLOAD_STATUS' : "Downloading : <code>{name}</code>\n{block} {percentage}\nSize : {total_size}\nDN : {download_speed} / UP : {upload_speed}\nSeeder : {seeder}\nETA : {eta}\nID : <code>{gid}</code>",
+    'ARIA2_DOWNLOAD_STATUS' : "Downloading : <code>{name}</code>\n{block} {percentage}\n💾 Size : {total_size}\n🚀 DN : {download_speed} / UP : {upload_speed}\n📶 Seeder : {seeder}\n🧭 ETA : {eta}\n🌐 ID : <code>{gid}</code>",
     'ARIA2_DOWNLOAD_SUCCESS' : 'File downloaded : <code>{name}</code>',
     'ARIA2_DOWNLOAD_CANCELED' : 'Download canceled : <code>{name}</code>',
     'ARIA2_DEAD_LINK' : 'Download auto canceled : <code>{name}</code>\nYour Torrent/Link is Dead.',
     'ARIA2_NO_URI' : 'Link is invalid.',
     'UPLOADING_FILE' : 'Uploading : <code>{name}</code>',
-    'UPLOADING_PROGRESS' : 'Uploading : <code>{name}</code>\n{block} {percentage}%\nSize : {size}\nUP : {upload_speed}/s\nETA : {eta}',
+    'UPLOADING_PROGRESS' : 'Uploading : <code>{name}</code>\n{block} {percentage}%\n💾 Size : {size}\n🚀 UP : {upload_speed}/s\n🧭 ETA : {eta}',
     'UPLOAD_FAILED_FILE_MISSING' : 'Upload : Failed. file not found.\n<code>{name}</code>',
     'GENERATE_THUMBNAIL' : 'Thumbnail : Generating.\n<code>{name}</code>',
     'SPLIT_FILE' : 'Spliting : <code>{name}</code>',
@@ -42,6 +42,9 @@ LOCAL = Local({
     'COMMAND_UPLOAD_AS_DOC' : 'toggle upload anything as document',
     'COMMAND_UPLOAD_AS_ZIP' : 'toggle upload anything as bundled zipfile',
     'COMMAND_SET_TRACKER' : 'set default tracker, sparated by newline',
-    'BLOCK_EMPTY' : "▱",
-    "BLOCK_FILLED" : "▰"
+    'BLOCK_EMPTY' : '□',
+    'BLOCK_FILLED' : '■',
+    'DOWNLOAD_START' : 'Trying to download your file',
+    'SAVED_CUSTOM_THUMB_NAIL' : 'Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it',
+    'DEL_ETED_CUSTOM_THUMB_NAIL' : 'Custom thumbnail cleared succesfully'
 })
