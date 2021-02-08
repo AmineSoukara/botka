@@ -6,7 +6,7 @@ async def func(client : Client, message: Message):
     text = LOCAL.HELP_MESSAGE_HEADER + "\n"
     for cmd_code, cmd in COMMAND:
         info = LOCAL.NO_HELP_INFO
-        cmd_local = f'DAMIEN{cmd_code}' 
+        cmd_local = f'DAMIEN_{cmd_code}' 
         if cmd_local in dict(LOCAL):
             info = getattr(LOCAL, cmd_local)
         text += f'/{cmd} - {info}\n'
