@@ -80,13 +80,13 @@ COMMAND = Config({
     'START' : 'start',
     'PASSWORD' : 'pass',
     'HELP' : 'help',
-    'LEECH' : 'leech',
+    'LEECH' : 'dl',
     'CANCEL_LEECH' : 'cancel',
     'LEECH_LIST' : 'list',
-    'UPLOAD_AS_DOC' : 'upload_as_doc',
-    'UPLOAD_AS_ZIP' : 'upload_as_zip',
-    'SET_THUMBNAIL' : 'set_thumbnail',
-    'RESET_THUMBNAIL' : 'reset_thumbnail',
+    'UPLOAD_AS_DOC' : 'upload_doc',
+    'UPLOAD_AS_ZIP' : 'upload_zip',
+    'SET_THUMBNAIL' : 'save',
+    'RESET_THUMBNAIL' : 'clear',
     'SET_TRACKER' : 'set_tracker'
 }, 'COMMAND_')
 
