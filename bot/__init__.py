@@ -88,7 +88,7 @@ COMMAND = Config({
     'SET_THUMBNAIL' : 'save',
     'RESET_THUMBNAIL' : 'clear',
     'SET_TRACKER' : 'set_tracker'
-}, 'DAMIEN_')
+}, 'COMMAND_')
 
 # GOAL:
 # set status
